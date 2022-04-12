@@ -33,13 +33,6 @@ body {
 .header-link:focus {
   color: #2196f3;
 }
-
-.header-link-blue {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: #2196f3;
-}
 .header-tel {
   font-weight: 500;
   font-size: 14px;
@@ -67,4 +60,23 @@ body {
 .mail-btn:hover {
   color: #ffffff;
   background-color: #2196f3;
+}
+.footer-logo-text {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.6);
 }
