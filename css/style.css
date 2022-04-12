@@ -2,3 +2,19 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #e5e5e5;
 }
+.link {
+  text-decoration: none;
+}
+.header {
+  text-decoration: none;
+}
+.header-link {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+.header-list {
+}
