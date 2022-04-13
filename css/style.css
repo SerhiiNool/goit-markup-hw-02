@@ -33,6 +33,7 @@ body {
 .header-link:hover,
 .header-link:focus {
   color: #2196f3;
+  cursor: pointer;
 }
 .header-tel {
   font-weight: 500;
