@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
@@ -15,13 +15,14 @@
   </head>
   <body>
     <header class="header">
-      <a class="header-logo-text link" href="">WebStudio</a>
-
-      <ul class="header-list list">
-        <li><a class="header-link link" href="">Студия</a></li>
-        <li><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
-        <li><a class="header-link link" href="">Контакты</a></li>
-      </ul>
+      <a class="header-logo-text link" href="" lang="en">WebStudio</a>
+      <nav>
+        <ul class="header-list list">
+          <li><a class="header-link link" href="./index.html">Студия</a></li>
+          <li><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="header-link link" href="">Контакты</a></li>
+        </ul>
+      </nav>
       <ul class="list">
         <li>
           <a class="header-tel link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -33,82 +34,84 @@
     </header>
     <main>
       <section>
+        <h1 hidden>portfolio</h1>
         <ul class="urll list">
-          <li><a class="url link" href="">Все</a></li>
-          <li><a class="url link" href="">Веб-сайты</a></li>
-          <li><a class="url link" href="">Приложения</a></li>
-          <li><a class="url link" href="">Дизайн</a></li>
-          <li><a class="url link" href="">Маркетинг</a></li>
+          <li><button type="button" class="url-button link">Все</button></li>
+          <li><button type="button" class="url-button link">Веб-сайты</button></li>
+          <li><button type="button" class="url-button link">Приложения</button></li>
+          <li><button type="button" class="url-button link">Дизайн</button></li>
+          <li><button type="button" class="url-button link">Маркетинг</button></li>
         </ul>
-      </section>
-      <section>
+
         <ul class="company list">
           <li>
             <img src="./img/porfolio_img/progect1.jpg" alt="технокряк" />
-            <h3 class="company-name">Технокряк</h3>
+            <h2 class="company-name">Технокряк</h2>
             <p class="work">Веб-сайт</p>
           </li>
           <li>
             <img src="./img/porfolio_img/progect2.jpg" alt="баскетбол" />
-            <h3 class="company-name">Постер New Orlean vs Golden Star</h3>
+            <h2 class="company-name">Постер <span lang="en"> Orlean vs Golden Star</span></h2>
             <p class="work">Дизайн</p>
           </li>
           <li>
             <img src="./img/porfolio_img/progect3.jpg" alt="рестран морепродутов" />
-            <h3 class="company-name">Ресторан Seafood</h3>
+            <h2 class="company-name">Ресторан <span lang="en">Seafood</span></h2>
             <p class="work">Приложение</p>
           </li>
           <li>
             <img src="./img/porfolio_img/progect4.jpg" alt="наушники" />
-            <h3 class="company-name">Проект Prime</h3>
+            <h2 class="company-name">Проект <span lang="en">Prime</span></h2>
             <p class="work">Маркетинг</p>
           </li>
           <li>
             <img src="./img/porfolio_img/progect5.jpg" alt="ящики" />
-            <h3 class="company-name">Проект Boxes</h3>
+            <h2 class="company-name">Проект <span lang="en">Boxes</span></h2>
             <p class="work">Приложение</p>
           </li>
           <li>
             <img src="./img/porfolio_img/progect6.jpg" alt="монитор" />
-            <h3 class="company-name">Inspiration has no Borders</h3>
+            <h2 class="company-name" lang="en">Inspiration has no Borders</h2>
             <p class="work">Веб-сайт</p>
           </li>
           <li>
             <img src="./img/porfolio_img/progect7.jpg" alt="журнал" />
-            <h3 class="company-name">Издание Limited Edition</h3>
+            <h2 class="company-name">Издание <span lang="en">Limited Edition</span></h2>
             <p class="work">Дизайн</p>
           </li>
           <li>
             <img src="./img/porfolio_img/progect8.jpg" alt="лейба" />
-            <h3 class="company-name">Проект LAB</h3>
+            <h2 class="company-name">Проект <span lang="en">LAB</span></h2>
             <p class="work">Маркетинг</p>
           </li>
           <li>
             <img src="./img/porfolio_img/progect9.jpg" alt="ноутбук" />
-            <h3 class="company-name">Growing Business</h3>
+            <h2 class="company-name" lang="en">Growing Business</h2>
             <p class="work">Приложение</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer-down">
-      <a class="footer-logo-text link" href="">WebStudio</a>
+      <a class="footer-logo-text link" href="" lang="en">WebStudio</a>
       <address>
-        <a
-          class="footer-address link"
-          href="https://goo.gl/maps/Sn9hDQXWdCiEpv1D6"
-          target="_blank"
-          rel="nooper, noindex, nofollow"
-        >
-          г. Киев, пр-т Леси Украинки, 26
-        </a>
+        <ul class="list">
+          <li>
+            <a
+              class="footer-address link"
+              href="https://goo.gl/maps/Sn9hDQXWdCiEpv1D6"
+              target="_blank"
+              rel="nooper, noindex, nofollow"
+            >
+              г. Киев, пр-т Леси Украинки, 26
+            </a>
+          </li>
+          <li>
+            <a class="footer-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="footer-contacts link" href="tel:+38096111111">+38 096 111 11 11</a></li>
+        </ul>
       </address>
-      <ul class="list">
-        <li>
-          <a class="footer-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li><a class="footer-contacts link" href="tel:+38096111111">+38 096 111 11 11</a></li>
-      </ul>
     </footer>
   </body>
 </html>

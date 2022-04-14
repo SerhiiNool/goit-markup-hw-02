@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
+  background-color: ;
 }
 
 .link {
@@ -22,8 +22,6 @@ body {
   color: #2196f3;
 }
 
-.header-list {
-}
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -73,11 +71,6 @@ body {
   background-color: #2196f3;
 }
 /* -----About-----*/
-
-.about {
-}
-.about-list {
-}
 .about-title {
   font-weight: 700;
   font-size: 14px;
@@ -100,8 +93,6 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
 }
 .masters {
   font-weight: 700;
@@ -148,14 +139,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-down {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
   background: #2f303a;
 }
 /*--------GALLERY-------*/
-.url {
+.url-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -163,7 +150,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.url:hover {
+.url-button:hover {
   color: #ffffff;
   background-color: #2196f3;
 }
