@@ -69,8 +69,10 @@ body {
   line-height: 1.87;
   color: var(--white-color);
   background-color: var(--blue-color);
+  cursor: pointer;
 }
-.mail-btn:hover {
+.mail-btn:hover,
+.mail-btn:focus {
   color: var(--white-color);
   background-color: var(--grey-color);
 }
@@ -169,7 +171,6 @@ body {
   color: #212121;
 }
 .work {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
