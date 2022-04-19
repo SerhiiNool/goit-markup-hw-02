@@ -40,12 +40,7 @@ body {
   line-height: 1.14;
   color: var(--black-back);
 }
-.header-link-studia {
-  color: var(--blue-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--blue-color);
@@ -56,12 +51,7 @@ body {
   line-height: 1.14;
   color: var(--grey-color);
 }
-.header-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--blue-color);
-}
+
 .header-tel:hover,
 .header-tel:focus {
   color: var(--blue-color);
@@ -196,16 +186,6 @@ body {
   border-radius: 4px;
 }
 
-.url-button-1 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-  background: #2196f3;
-  border-radius: 4px;
-}
 .url-button:focus,
 .url-button:hover {
   color: #ffffff;
